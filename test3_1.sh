@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "please enter year and month"
-read year month
+read -p "please enter year and month : " year month
 cal $month $year
 
