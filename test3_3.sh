@@ -1,6 +1,5 @@
 #!/bin/bash
-echo "please enter two words"
-read str1 ste2
+read -p "please enter two words : " str1 str2
 if [[ ${str1} = ${str2} ]]
 then echo "Match"
 else echo "Not match"
