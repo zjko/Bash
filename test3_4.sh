@@ -17,4 +17,3 @@ case $input in
         *) echo "command not found";;
 esac
 done
-~    
