@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "please a number " r
+read -p "please enter a number " r
 
 for (( y=r; y>=-r; y-=2  ))
 do
@@ -9,7 +9,6 @@ do
                 then echo -n "*"
                 else echo -n " "
                 fi
-
         done
         echo ""
 

@@ -4,4 +4,3 @@ if [[ ${str1} = ${str2} ]]
 then echo "Match"
 fi
 echo "End of program"
-

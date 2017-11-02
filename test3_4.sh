@@ -1,7 +1,6 @@
 #!/bin/bash
 while [ true ]
 do
-
 echo "a.  Current date and time"
 echo "b.  User currently logged in"
 echo "c.  Name of the working directory"
